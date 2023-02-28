@@ -13,7 +13,7 @@ cask "ffprobe" do
 
   livecheck do
     url "https://evermeet.cx/pub/ffprobe/"
-    regex(/href=.*?ffprobe[._-](\d+\.\d+\.\d+)\.zip/i)
+    regex(/href=.*?ffprobe[._-](\d+\.\d+(?:\.\d+)?)\.zip/i)
   end
 
   caveats <<~EOS

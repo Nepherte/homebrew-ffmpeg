@@ -13,7 +13,7 @@ cask "ffplay" do
 
   livecheck do
     url "https://evermeet.cx/pub/ffplay/"
-    regex(/href=.*?ffplay[._-](\d+\.\d+\.\d+)\.zip/i)
+    regex(/href=.*?ffplay[._-](\d+\.\d+(?:\.\d+)?)\.zip/i)
   end
 
   caveats <<~EOS

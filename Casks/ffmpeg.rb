@@ -13,7 +13,7 @@ cask "ffmpeg" do
 
   livecheck do
     url "https://evermeet.cx/pub/ffmpeg/"
-    regex(/href=.*?ffmpeg[._-](\d+\.\d+\.\d+)\.zip/i)
+    regex(/href=.*?ffmpeg[._-](\d+\.\d+(?:\.\d+)?)\.zip/i)
   end
 
   caveats <<~EOS
