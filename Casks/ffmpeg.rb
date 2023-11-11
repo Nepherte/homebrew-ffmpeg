@@ -1,12 +1,12 @@
 cask "ffmpeg" do
   name "ffmpeg"
-  version "6.0"
+  version "6.0.1"
 
   homepage "https://ffmpeg.org/"
   desc "A complete, cross-patform solution to convert audio and video"
 
   url "https://evermeet.cx/pub/ffmpeg/ffmpeg-#{version}.zip", verified: "https://evermeet.cx"
-  sha256 "9a810d222862a7230fd7035c91e32beb605af7501c3517580f2bc1eb8faddacc"
+  sha256 "1b5bdb6be9f9601b6951672f99a18cb89c0d6e59ccc1453314f94b4d0579271b"
 
   binary "ffmpeg"
   depends_on macos: ">= :big_sur"

@@ -13,9 +13,9 @@ An overview of the available packages in this homebrew tap:
 
 | Package | Version |       x86_64       |       arm64        | Remarks   |
 |:--------|:-------:|:------------------:|:------------------:|:----------|
-| ffmpeg  |  5.1.2  | :white_check_mark: |     :warning:      | rosetta 2 |
-| ffplay  |  5.1.2  | :white_check_mark: |     :warning:      | rosetta 2 |
-| ffprobe |  5.1.2  | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffmpeg  |  6.0.1  | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffplay  |  6.0.1  | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffprobe |  6.0.1  | :white_check_mark: |     :warning:      | rosetta 2 |
 
 FAQ
 ---

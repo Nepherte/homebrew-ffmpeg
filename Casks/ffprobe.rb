@@ -1,12 +1,12 @@
 cask "ffprobe" do
   name "ffprobe"
-  version "6.0"
+  version "6.0.1"
 
   homepage "https://ffmpeg.org/"
   desc "A complete, cross-patform solution to convert audio and video"
 
   url "https://evermeet.cx/pub/ffprobe/ffprobe-#{version}.zip", verified: "https://evermeet.cx"
-  sha256 "aefcbe2c89f26d3ed6daaa2bb07c9a0e0b6c59b0967ecc4e1cb35a132d6b9926"
+  sha256 "2ebd44315e41f9c4acbc49bca98861f28efb911af4e4775048dc4f7ec8f4ef04"
 
   binary "ffprobe"
   depends_on macos: ">= :big_sur"
