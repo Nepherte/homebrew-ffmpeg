@@ -13,8 +13,8 @@ jobs:
     - name: Checkout Repo
       uses: actions/checkout@v3
 
-    - name: Update Homebrew Formula
-      uses: dawidd6/action-homebrew-bump-formula@v3
+    - name: Update Homebrew Casks
+      uses: macauley/action-homebrew-bump-cask@v1
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         tap: nepherte/ffmpeg
