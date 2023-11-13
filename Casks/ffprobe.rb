@@ -1,20 +1,20 @@
 cask "ffprobe" do
+  version "6.1"
+  sha256 "e292a8e401aa6a87bdb32feab8eef913f69320a14126ce667ea09964a40e20a4"
+
+  url "https://evermeet.cx/pub/ffprobe/ffprobe-#{version}.zip", verified: "evermeet.cx/"
   name "ffprobe"
-  version "6.0.1"
-
+  desc "Complete, cross-patform solution to convert audio and video"
   homepage "https://ffmpeg.org/"
-  desc "A complete, cross-patform solution to convert audio and video"
-
-  url "https://evermeet.cx/pub/ffprobe/ffprobe-#{version}.zip", verified: "https://evermeet.cx"
-  sha256 "2ebd44315e41f9c4acbc49bca98861f28efb911af4e4775048dc4f7ec8f4ef04"
-
-  binary "ffprobe"
-  depends_on macos: ">= :big_sur"
 
   livecheck do
     url "https://evermeet.cx/pub/ffprobe/"
     regex(/href=.*?ffprobe[._-](\d+\.\d+(?:\.\d+)?)\.zip/i)
   end
+
+  depends_on macos: ">= :big_sur"
+
+  binary "ffprobe"
 
   caveats <<~EOS
     On macOS 10.15 (Catalina) and later, the binary has to be removed from quarantine:
