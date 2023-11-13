@@ -1,20 +1,20 @@
 cask "ffplay" do
+  version "6.1"
+  sha256 "3b71ca5e45607b2d686a7a7f6e01d1a1f094e0abb2a706cacf000971da9c58d6"
+
+  url "https://evermeet.cx/pub/ffplay/ffplay-#{version}.zip", verified: "evermeet.cx/"
   name "ffplay"
-  version "6.0.1"
-
+  desc "Complete, cross-patform solution to convert audio and video"
   homepage "https://ffmpeg.org/"
-  desc "A complete, cross-patform solution to convert audio and video"
-
-  url "https://evermeet.cx/pub/ffplay/ffplay-#{version}.zip", verified: "https://evermeet.cx"
-  sha256 "9da068a89ab2be4104e51119f2e604567230b27101501815ef1d0add50752015"
-
-  binary "ffplay"
-  depends_on macos: ">= :big_sur"
 
   livecheck do
     url "https://evermeet.cx/pub/ffplay/"
     regex(/href=.*?ffplay[._-](\d+\.\d+(?:\.\d+)?)\.zip/i)
   end
+
+  depends_on macos: ">= :big_sur"
+
+  binary "ffplay"
 
   caveats <<~EOS
     On macOS 10.15 (Catalina) and later, the binary has to be removed from quarantine:
