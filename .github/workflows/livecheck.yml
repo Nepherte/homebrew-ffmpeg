@@ -17,5 +17,5 @@ jobs:
       uses: dawidd6/action-homebrew-bump-formula@v3
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
-        tap: nepherte/roon
+        tap: nepherte/ffmpeg
         livecheck: true
