@@ -1,6 +1,6 @@
 cask "ffprobe" do
-  version "6.1"
-  sha256 "e292a8e401aa6a87bdb32feab8eef913f69320a14126ce667ea09964a40e20a4"
+  version "6.1.1"
+  sha256 "8644a01fd59afe1c9442a102372cacd2db73807aa05f7e33bcf06aa6e58a4771"
 
   url "https://evermeet.cx/pub/ffprobe/ffprobe-#{version}.zip", verified: "evermeet.cx/"
   name "ffprobe"
