@@ -1,6 +1,6 @@
 cask "ffplay" do
-  version "6.1"
-  sha256 "3b71ca5e45607b2d686a7a7f6e01d1a1f094e0abb2a706cacf000971da9c58d6"
+  version "6.1.1"
+  sha256 "206cbe164fecff97317e8d74775b0003bf59d55e727cf27513dc654de270f1fd"
 
   url "https://evermeet.cx/pub/ffplay/ffplay-#{version}.zip", verified: "evermeet.cx/"
   name "ffplay"
