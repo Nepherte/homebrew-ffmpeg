@@ -11,11 +11,11 @@ Packages
 --------
 An overview of the available packages in this homebrew tap:
 
-| Package | Version |       x86_64       |       arm64        | Remarks   |
-|:--------|:-------:|:------------------:|:------------------:|:----------|
-| ffmpeg  |  6.1    | :white_check_mark: |     :warning:      | rosetta 2 |
-| ffplay  |  6.1    | :white_check_mark: |     :warning:      | rosetta 2 |
-| ffprobe |  6.1    | :white_check_mark: |     :warning:      | rosetta 2 |
+| Package |  Version  |       x86_64       |       arm64        | Remarks   |
+|:--------|:---------:|:------------------:|:------------------:|:----------|
+| ffmpeg  |  6.1      | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffplay  |  6.1      | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffprobe |  6.1.1    | :white_check_mark: |     :warning:      | rosetta 2 |
 
 FAQ
 ---
