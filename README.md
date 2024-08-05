@@ -15,7 +15,7 @@ An overview of the available packages in this homebrew tap:
 |:--------|:---------:|:------------------:|:------------------:|:----------|
 | ffmpeg  |  7.0.1    | :white_check_mark: |     :warning:      | rosetta 2 |
 | ffplay  |  7.0.1    | :white_check_mark: |     :warning:      | rosetta 2 |
-| ffprobe |  7.0.1    | :white_check_mark: |     :warning:      | rosetta 2 |
+| ffprobe |  7.0.2    | :white_check_mark: |     :warning:      | rosetta 2 |
 
 FAQ
 ---
