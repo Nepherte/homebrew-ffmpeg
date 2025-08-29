@@ -8,8 +8,8 @@ cask "ffplay" do
     depends_on arch: :arm64
   end
   on_intel do
-    version "7.1.1,1741001873"
-    sha256  "ca14a3d3e41476ceb664cc6025b3cf101ce3a479d6bbcd3ae0514a399833dbd1"
+    version "8.0,1756407576"
+    sha256  "d6a1b8cd2ab48fb19de17c5745219ffb9dca2ccd624a568e04b87b7fac537b53"
 
     depends_on arch: :intel
   end
