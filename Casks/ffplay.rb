@@ -4,10 +4,14 @@ cask "ffplay" do
   on_arm do
     version "7.1.1,1741000090"
     sha256  "130783f3c40e8fda1e363993ea141c7645894783f1d619e2754ee415fed0e27c"
+
+    depends_on arch: :arm64
   end
   on_intel do
     version "7.1.1,1741001873"
     sha256  "ca14a3d3e41476ceb664cc6025b3cf101ce3a479d6bbcd3ae0514a399833dbd1"
+
+    depends_on arch: :intel
   end
 
   url "https://ffmpeg.martin-riedl.de/download/macos/#{arch}/#{version.csv.second}_#{version.csv.first}/ffplay.zip",

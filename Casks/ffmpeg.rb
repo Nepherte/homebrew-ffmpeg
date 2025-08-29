@@ -4,10 +4,14 @@ cask "ffmpeg" do
   on_arm do
     version "7.1.1,1741000090"
     sha256 "e18c39a330ad783c33d6d7b47784e82a42f8acdbb497a1f73550f1bc0e830d44"
+
+    depends_on arch: :arm64
   end
   on_intel do
     version "7.1.1,1741001873"
     sha256 "fd05ab8709c015b0a1922c65623beb8cff7f964c1524d060531bbb7b213b4cd2"
+
+    depends_on arch: :intel
   end
 
   url "https://ffmpeg.martin-riedl.de/download/macos/#{arch}/#{version.csv.second}_#{version.csv.first}/ffmpeg.zip",

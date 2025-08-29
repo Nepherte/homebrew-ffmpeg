@@ -4,10 +4,14 @@ cask "ffprobe" do
   on_arm do
     version "7.1.1,1741000090"
     sha256 "4eeb4644703bed221eec72107fbe2cc1e1180a3605c53136866cf43886d0499a"
+
+    depends_on arch: :arm64
   end
   on_intel do
     version "7.1.1,1741001873"
     sha256 "bfea765749e422cd4b3512f2e0528592611d4ddfe47b128bf88453322f9050b5"
+
+    depends_on arch: :intel
   end
 
   url "https://ffmpeg.martin-riedl.de/download/macos/#{arch}/#{version.csv.second}_#{version.csv.first}/ffprobe.zip",
