@@ -2,8 +2,8 @@ cask "ffmpeg" do
   arch arm: "arm64", intel: "amd64"
 
   on_arm do
-    version "7.1.1,1741000090"
-    sha256 "e18c39a330ad783c33d6d7b47784e82a42f8acdbb497a1f73550f1bc0e830d44"
+    version "8.0,1756401489"
+    sha256 "e7e0375f0b031ca0b013b7b7409500c3f6d10f1a0d4dc0c500774a304a60dc4f"
 
     depends_on arch: :arm64
   end
