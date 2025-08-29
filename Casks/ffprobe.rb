@@ -2,8 +2,8 @@ cask "ffprobe" do
   arch arm: "arm64", intel: "amd64"
 
   on_arm do
-    version "7.1.1,1741000090"
-    sha256 "4eeb4644703bed221eec72107fbe2cc1e1180a3605c53136866cf43886d0499a"
+    version "8.0,1756401489"
+    sha256 "f564c9a4e6514ee0b159e70fcd042b45493c3b47603b72a2ddbf7ee4fe9bfca1"
 
     depends_on arch: :arm64
   end
