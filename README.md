@@ -13,9 +13,9 @@ An overview of the available packages in this homebrew tap:
 
 | Package | Version |       x86_64       |       arm64        | Remarks |
 |:--------|:-------:|:------------------:|:------------------:|:--------|
-| ffmpeg  |  7.1.1  | :white_check_mark: | :white_check_mark: | -       |
-| ffplay  |  7.1.1  | :white_check_mark: | :white_check_mark: | -       |
-| ffprobe |  7.1.1  | :white_check_mark: | :white_check_mark: | -       |
+| ffmpeg  |  8.0    | :white_check_mark: | :white_check_mark: | -       |
+| ffplay  |  8.0    | :white_check_mark: | :white_check_mark: | -       |
+| ffprobe |  8.0    | :white_check_mark: | :white_check_mark: | -       |
 
 FAQ
 ---
