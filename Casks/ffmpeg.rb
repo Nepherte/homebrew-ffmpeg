@@ -8,8 +8,8 @@ cask "ffmpeg" do
     depends_on arch: :arm64
   end
   on_intel do
-    version "7.1.1,1741001873"
-    sha256 "fd05ab8709c015b0a1922c65623beb8cff7f964c1524d060531bbb7b213b4cd2"
+    version "8.0,1756407576"
+    sha256 "1cf942791d5524cc5e090ba6ecff7d2b03ffc916bddece9618a5f6d91afdb0df"
 
     depends_on arch: :intel
   end
