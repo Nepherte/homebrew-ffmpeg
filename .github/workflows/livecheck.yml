@@ -1,0 +1,28 @@
+name: Homebrew Livecheck
+
+on:
+  schedule:
+  - cron: 0 0 * * *
+  workflow_dispatch:
+
+jobs:
+  livecheck:
+    name: Livecheck on ${{ matrix.job.os }}
+    runs-on: ${{ matrix.job.os }}
+    strategy:
+      matrix:
+        job:
+          - os: macos-15 # arm64
+          - os: macos-13 # intel
+    
+    steps: 
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: Bump Homebrew Casks
+      uses: macauley/action-homebrew-bump-cask@v1
+      with:
+        token: ${{ secrets.HOMEBREW_TOKEN }}
+        message: Bump version of homebrew cask
+        tap: nepherte/ffmpeg
+        livecheck: true
