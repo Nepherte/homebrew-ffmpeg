@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Bump Homebrew Casks
-      uses: macauley/action-homebrew-bump-cask@v1
+      uses: eugenesvk/action-homebrew-bump-cask@v3.8.6
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         message: Bump version of homebrew cask
