@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         job:
-          - os: macos-15 # arm64
-          - os: macos-13 # intel
+          - os: macos-15       # arm64
+          - os: macos-15-intel # intel
     
     steps: 
     - name: Checkout Repo
