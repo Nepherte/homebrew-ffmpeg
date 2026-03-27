@@ -2,8 +2,8 @@ cask "ffplay" do
   arch arm: "arm64", intel: "amd64"
 
   on_arm do
-    version "8.0.1,1766430132"
-    sha256  "d9f139c9e593dad9a237b03c913116b422eec5afb6649c0292db6872b3533946"
+    version "8.1,1774549676"
+    sha256  "1b085769ef877519d82bf5d32fb44162831fa8fcdc72f06f55adac5529bfa69a"
 
     depends_on arch: :arm64
   end
