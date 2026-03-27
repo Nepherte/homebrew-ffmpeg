@@ -8,8 +8,8 @@ cask "ffprobe" do
     depends_on arch: :arm64
   end
   on_intel do
-    version "8.0.1,1766437297"
-    sha256 "a09b01e8f54ccdbeb661d48952f412edb858860b38ec7fd1c3901a645e3a3b04"
+    version "8.1,1774556648"
+    sha256 "221bd0716dc15daf5745c5503773e5c23264c10c5ea956aa17ef492bbc0b0ac7"
 
     depends_on arch: :intel
   end
