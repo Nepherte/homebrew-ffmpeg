@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Bump Homebrew Casks
       uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.8
