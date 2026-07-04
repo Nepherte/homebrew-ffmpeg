@@ -11,11 +11,11 @@ Packages
 --------
 An overview of the available packages in this homebrew tap:
 
-| Package |       x86_64       |       arm64        | Remarks |
-|:--------|:------------------:|:------------------:|:-------:|
-| ffmpeg  | :white_check_mark: | :white_check_mark: |    -    |
-| ffplay  | :white_check_mark: | :white_check_mark: |    -    |
-| ffprobe | :white_check_mark: | :white_check_mark: |    -    |
+| Package | x86_64 |       arm64        | Remarks |
+|:--------|:------:|:------------------:|:-------:|
+| ffmpeg  |  :x:   | :white_check_mark: |    -    |
+| ffplay  |  :x:   | :white_check_mark: |    -    |
+| ffprobe |  :x:   | :white_check_mark: |    -    |
 
 FAQ
 ---

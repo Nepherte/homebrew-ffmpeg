@@ -7,13 +7,8 @@ on:
 
 jobs:
   livecheck:
-    name: Livecheck on ${{ matrix.job.os }}
-    runs-on: ${{ matrix.job.os }}
-    strategy:
-      matrix:
-        job:
-          - os: macos-26       # arm64
-          - os: macos-26-intel # intel
+    name: Livecheck
+    runs-on: macos-26
 
     steps:
     - name: Checkout Repo
