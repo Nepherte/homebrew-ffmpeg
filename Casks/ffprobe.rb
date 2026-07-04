@@ -1,6 +1,6 @@
 cask "ffprobe" do
-  version "8.1.1,1778761665"
-  sha256 "135e70d2518beeb568183952dbc4bdeca1628dd49a7376d57e6b27dbc57d209f"
+  version "8.1.2,1783011502"
+  sha256 "c39787f4af7a3932502d2d48db6f6feaaa836b48a73ef78c32cc3285df61dfaf"
 
   url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffprobe.zip",
       verified: "ffmpeg.martin-riedl.de/"
