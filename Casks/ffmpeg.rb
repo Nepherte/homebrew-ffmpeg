@@ -1,6 +1,6 @@
 cask "ffmpeg" do
-  version "8.1.2,1783011502"
-  sha256 "ef1aa60006c7b77ce170c1608c08d8e4ba1c30c5746f2ac986ded932d0ac2c3c"
+  version "9.0,1785863997"
+  sha256 "5267ef149ee0d208057a1b316aac079b661b0476574dee5da7d225769773c603"
 
   url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffmpeg.zip",
       verified: "ffmpeg.martin-riedl.de/"
