@@ -1,6 +1,6 @@
 cask "ffplay" do
-  version "9.0,1785863997"
-  sha256 "ce68639aaf32d7b20963d43613bb3651484071048abc9a18c05ab6fe6ca7f180"
+  version "9.0.1,1787073674"
+  sha256 "7063e79c64c2bf7f0fb61a7a9fb657af87f123f4b63b978a99628f0ebc97ebdf"
 
   url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffplay.zip",
       verified: "ffmpeg.martin-riedl.de/"
