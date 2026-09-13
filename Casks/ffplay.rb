@@ -2,8 +2,7 @@ cask "ffplay" do
   version "9.0.1,1787073674"
   sha256 "7063e79c64c2bf7f0fb61a7a9fb657af87f123f4b63b978a99628f0ebc97ebdf"
 
-  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffplay.zip",
-      verified: "ffmpeg.martin-riedl.de/"
+  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffplay.zip"
   name "ffplay"
   desc "Complete, cross-platform solution to convert audio and video"
   homepage "https://ffmpeg.org/"

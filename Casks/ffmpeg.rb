@@ -2,8 +2,7 @@ cask "ffmpeg" do
   version "9.0.1,1787073674"
   sha256 "8287a1b2229e05eb41859f073e18e6c52c60a778f2f5e6881070fe51b79407fe"
 
-  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffmpeg.zip",
-      verified: "ffmpeg.martin-riedl.de/"
+  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffmpeg.zip"
   name "ffmpeg"
   desc "Complete, cross-platform solution to convert audio and video"
   homepage "https://ffmpeg.org/"

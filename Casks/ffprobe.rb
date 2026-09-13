@@ -2,8 +2,7 @@ cask "ffprobe" do
   version "9.0.1,1787073674"
   sha256 "102a26b8940a053298d9929bfaae71e4b6ef65ba5f19a99a88c433108560741a"
 
-  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffprobe.zip",
-      verified: "ffmpeg.martin-riedl.de/"
+  url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffprobe.zip"
   name "ffprobe"
   desc "Complete, cross-platform solution to convert audio and video"
   homepage "https://ffmpeg.org/"
