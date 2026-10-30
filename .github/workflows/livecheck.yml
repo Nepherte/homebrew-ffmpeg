@@ -14,6 +14,9 @@ jobs:
     - name: Checkout Repo
       uses: actions/checkout@v7
 
+    - name: Trust Homebrew Taps
+      run: brew trust nepherte/ffmpeg
+
     - name: Bump Homebrew Casks
       uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.11
       with:
