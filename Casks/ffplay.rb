@@ -1,14 +1,11 @@
 cask "ffplay" do
-  version "9.0.2,1789931890"
-  sha256 "68e4bbec42ff060af82edb6406e04d9492920f98ff14cf0ef0a7ed70760acae8"
+  version "9.1,1795207104"
+  sha256 "aca254ff38e39185f833127edd003e2c1e3c766c588cc3780186a8eda75ebdf6"
 
   url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffplay.zip"
   name "ffplay"
   desc "Complete, cross-platform solution to convert audio and video"
   homepage "https://ffmpeg.org/"
-
-  depends_on :macos
-  depends_on arch: :arm64
 
   livecheck do
     url "https://ffmpeg.martin-riedl.de/info/history/macos/arm64/release"
@@ -20,6 +17,9 @@ cask "ffplay" do
       "#{match[2]},#{match[1]}"
     end
   end
+
+  depends_on arch: :arm64
+  depends_on :macos
 
   binary "ffplay"
 end
