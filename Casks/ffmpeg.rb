@@ -1,14 +1,11 @@
 cask "ffmpeg" do
-  version "9.0.2,1789931890"
-  sha256 "c8ed4c4e6978a03c485edbfe4e0a5dc2380f8a30bba5150531b31b094492d924"
+  version "9.1,1795207104"
+  sha256 "1f66e9a690a7f1c9e60b012379f8869c11818d1797f45b21dbb2f2564ba61ae1"
 
   url "https://ffmpeg.martin-riedl.de/download/macos/arm64/#{version.csv.second}_#{version.csv.first}/ffmpeg.zip"
   name "ffmpeg"
   desc "Complete, cross-platform solution to convert audio and video"
   homepage "https://ffmpeg.org/"
-
-  depends_on :macos
-  depends_on arch: :arm64
 
   livecheck do
     url "https://ffmpeg.martin-riedl.de/info/history/macos/arm64/release"
@@ -20,6 +17,9 @@ cask "ffmpeg" do
       "#{match[2]},#{match[1]}"
     end
   end
+
+  depends_on arch: :arm64
+  depends_on :macos
 
   binary "ffmpeg"
 end
